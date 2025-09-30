@@ -4,6 +4,16 @@
 
 /* STEP 13: View the result in the browser, then head back to index.html */
 /* The below class and animation keyframes are used by the JavaScript */
+.carousel-caption {
+	bottom: 0;
+	top: auto;
+	padding-bottom: 1rem;
+}
+
+.carousel-indicators {
+	top: 0;
+	bottom: auto;
+}
 .zoomit {
 	animation: zoom-in-out .5s;
 }
